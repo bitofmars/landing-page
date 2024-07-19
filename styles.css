@@ -37,6 +37,7 @@ button {
 .header {
     display: flex;
     justify-content: space-between;
+    margin: 0px 100px;
     padding: 24px;
 }
 
@@ -63,7 +64,13 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 450px;
+    margin: 0px 100px;
     padding: 24px;
+}
+
+.main-left {
+    width: 450px;
 }
 
 .main h2 {
@@ -73,20 +80,22 @@ button {
 }
 
 .main p {
-    margin: 8px 0px;
+    margin-bottom: 8px;
 }
 
 /* ------------------------------- BOXES SECTION */
 
 .boxes-section {
-    padding: 24px;
+    padding: 50px;
+    margin: 0px 100px;
+    text-align: center;
 }
 
 .boxes-section h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    text-align: center;
+    margin-bottom: 24px;
 }
 
 .boxes {
@@ -111,18 +120,28 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #e5e7eb;
-    padding: 24px;
+    padding: 50px;
+    height: 350px;
 }
 
-.quote-section p {
+.quote-container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container p {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
     color: #1f2937;
 }
 
-.quote-section p:last-of-type {
+.quote-container p:last-of-type {
     align-self: flex-end;
     font-style: normal;
     font-weight: bold;
@@ -135,7 +154,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 100px;
 }
 
 .cta {
