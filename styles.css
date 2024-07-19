@@ -151,3 +151,14 @@ button {
 .cta button {
     border: 2px solid #e5e7eb;
 }
+
+/* ------------------------------- FOOTER */
+
+.footer {
+    background-color: #1f2937;
+    height: 75px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
